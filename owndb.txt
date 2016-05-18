@@ -28,6 +28,9 @@ mysql> create trigger fagain after insert on ports
     -> $$
 Query OK, 0 rows affected (0.00 sec)
 
-
+***Procedure up(): Will be called when the trigger 'fire' is triggered. In procedure 'up' table in our local database
+(company2) will be updated 
+Procedure aup()Will be called when the trigger 'fagain' is triggered. In procedure 'aup' table in our local database
+(company2) will be updated***
 
 
